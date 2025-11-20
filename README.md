@@ -11,9 +11,12 @@ ConsentMonitor captures the passed memory block to provide visibility into **wha
 # Usage
 ConsentMonitor must be run from an elevated command prompt. When executed without arguments, it writes its logs to a custom event log provider. If the `-c` option is specified, output is sent to the console instead.
 
-![](.\Images\event5.png)
-![](.\Images\event1.png)
-![](.\Images\cmd.png)
+<img width="967" height="515" alt="event5" src="Images/event5.png" />
+
+<img width="1142" height="756" alt="event1" src="Images/event1.png" />
+
+<img width="1027" height="667" alt="cmd" src="Images/cmd.png" />
+
 
 ConsentMonitor can also be ran as a service. This can be acheived by doing the following:
 1. Download [NSSM](https://nssm.cc/download). In the same folder as NSSM, copy ConsentMonitor_Service.bat and change the path to ConsentMonitor:
